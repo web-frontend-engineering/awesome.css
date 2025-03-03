@@ -1,8 +1,9 @@
-//清除浮动
+// 清除浮动
 .clearfix{
   @include clearfix();
 }
 
+// 省略号代替被截断的文本 (元素必须是 block 或 inline-block 级)
 .text-overflow{
   @include text-overflow();
 }
